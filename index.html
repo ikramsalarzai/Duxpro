@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+</head>
+<style>
+    #navbar {
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        transition: top 0.3s;
+    }
+
+    .col1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./4.jpg);
+        background-position: top;
+        background-size: cover;
+        height: 560px;
+
+
+
+    }
+
+    .bg2 {
+        background-image: url(./2.jpg);
+        background-position: top;
+        background-size: cover;
+        height: 560px;
+
+    }
+
+    .carousel .carousel-indicators li {
+        background-color: red;
+    }
+
+    .carousel .carousel-indicators li.active {
+        background-color: blue;
+    }
+
+    .carousel-indicators li {
+        width: 50px;
+        height: 5px;
+        border-radius: 2px;
+
+    }
+
+    .carousel-indicators {
+        bottom: -25px;
+    }
+
+    .REALIZING {
+        border-radius: 5px;
+        padding: 3px 10px;
+        font-size: 25px;
+        margin-top: 110px;
+    }
+
+    .Powerful {
+        font-weight: 600;
+        padding: 0px 250px;
+        margin-top: 50px;
+        color: white;
+    }
+
+    .Models {
+        margin-top: 70px;
+    }
+
+    .modelpic {
+        /* you need to match the shadow color to your background or image border for the desired effect*/
+        box-shadow: 0 0 8px 8px rgb(255, 246, 246) inset;
+    }
+
+    .card-text {
+        color: white;
+
+    }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">
+            <img src="./Asset 1-20/Group 33.png" class="w-50" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active ">
+                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Interior Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row text-center ">
+            <div class="col-md-12 col1 pt-5">
+                <h4 class="btn btn-outline-light REALIZING  ">-REALIZING IMAGINATION-</h4>
+                <h2 class="Powerful">Powerful Interior Design Tools with the Fastest Photo-Realistic Rendering</h2>
+                <div class="w-100 mt-5">
+                    <div class="btn btn-info px-5">
+                        Try for free
+                    </div>
+                    <div class="btn btn-outline-info">
+                        Business Solution
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                    <!--Controls-->
+                    <!-- <div class="controls-top text-right">
+                    <a class="btn-floating " href="#multi-item-example" data-slide="prev">
+                        <i class="fa fa-arrow-circle-left fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-arrow-circle-right fa-2x"
+                            aria-hidden="true"></i>
+                    </a>
+                </div> -->
+                    <!--/.Controls-->
+
+                    <!--Indicators-->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#multi-item-example" data-slide-to="0" class="active "></li>
+                        <li data-target="#multi-item-example" data-slide-to="1"></li>
+                        <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                        <!--First slide-->
+                        <div class="carousel-item active">
+                            <div class="row">
+
+
+                                <div class="col-md-4 col-6 clearfix  ">
+                                    <figure class="border-bottom">
+                                        <img class="card-img-top img-fluid w-100" src="./4.jpg" />
+                                        <figcaption class="font-weight-bold mt-2">
+                                            Interrior Designing
+                                        </figcaption>
+                                        <!-- <figcaption class="mb-4">Singer name</figcaption> -->
+                                    </figure>
+                                </div>
+
+                                <!-- <div class="col-md-4 col-4 clearfix  ">
+                                <figure class="border-bottom">
+                                    <img class="card-img-top img-fluid w-100" src="./3.jpg" />
+                                    <figcaption class="font-weight-bold mt-2">
+                                        Song title
+                                    </figcaption>
+                                    <figcaption class="mb-4">Singer name</figcaption>
+                                </figure>
+                            </div> -->
+                                <div class="col-md-4 col-6 clearfix  ">
+                                    <figure class="border-bottom">
+                                        <img class="card-img-top img-fluid w-100" src="./5.jpg" />
+                                        <figcaption class="font-weight-bold mt-2">
+                                            Exterior Designing
+                                        </figcaption>
+                                        <!-- <figcaption class="mb-4">...</figcaption> -->
+                                    </figure>
+                                </div>
+
+                                <div class="col-md-4 col-6 clearfix clearfix d-none d-md-block ">
+                                    <figure class="border-bottom">
+                                        <img class="card-img-top img-fluid w-100" src="./56.jpg" />
+                                        <figcaption class="font-weight-bold mt-2">
+                                            Floor
+                                        </figcaption>
+                                        <!-- <figcaption class="mb-4">Singer name</figcaption> -->
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Second slide-->
+                        <div class="carousel-item  ">
+                            <div class="row">
+                                <div class="col-md-4 col-6">
+                                    <figure class="border-bottom">
+                                        <img class="card-img-top img-fluid w-100" src="./2.jpg" />
+                                        <figcaption class="font-weight-bold mt-2">
+                                            Walls
+                                        </figcaption>
+                                        <!-- <figcaption class="mb-4">Singer name</figcaption> -->
+                                    </figure>
+                                </div>
+
+                                <!-- <div class="col-md-4 col-4 clearfix  ">
+                                <figure class="border-bottom">
+                                    <img class="card-img-top img-fluid w-100" src="./2.jpg" />
+                                    <figcaption class="font-weight-bold mt-2">
+                                        Song title
+                                    </figcaption>
+                                    <figcaption class="mb-4">Singer name</figcaption>
+                                </figure>
+                            </div> -->
+
+                                <div class="col-md-4 col-6 clearfix  ">
+                                    <figure class="border-bottom">
+                                        <img class="card-img-top img-fluid w-100" src="./3.jpg" />
+                                        <figcaption class="font-weight-bold mt-2">
+                                            Blinds
+                                        </figcaption>
+                                        <!-- <figcaption class="mb-4">Singer name</figcaption> -->
+                                    </figure>
+                                </div>
+
+                                <div class="col-md-4 col-6 clearfix d-none d-md-block">
+                                    <figure class="border-bottom">
+                                        <img class="card-img-top img-fluid w-100" src="./1.jpg" />
+                                        <figcaption class="font-weight-bold mt-2">
+                                            Accessories
+                                        </figcaption>
+                                        <!-- <figcaption class="mb-4">Singer name</figcaption> -->
+                                    </figure>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 3rd -->
+                    </div>
+                    <!--/.Slides-->
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+            <div class="col-lg-8 mt-5 ">
+                <img src="./56.jpg" width="100%" class="modelpic" alt="" srcset="">
+            </div>
+            <div class="col-lg-4 mt-5">
+                <h4 class="Models">100+ Models Available</h4>
+                <p class="text-justify">
+                    From furniture to lighting, to decor, use our extensive library of assets in your design. With tens
+                    of thousands to
+                    choose from, the perfect 3D model is just a few clicks away.
+                </p>
+                <div class="btn btn-primary px-4" style="opacity: 0.5;">Explore more</div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <div class="card-deck">
+                    <div class="card bg-warning">
+                        <img class="card-img-top" src="holder.js/100x180/" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Outdoor Furnishing</h4>
+                            <p class="card-text">1 Statement-Worthy Outdoor Furnishing Collections Launched at the Milan
+                                Furniture Fair 2021</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-outline-light">Read more</div>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <img class="card-img-top" src="holder.js/100x180/" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Educational Design</h4>
+                            <p class="card-text">2 International Schools Show Educational Design is Smarter Than Ever
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-outline-light">Read more</div>
+                        </div>
+                    </div>
+                    <div class="card bg-danger">
+                        <img class="card-img-top" src="holder.js/100x180/" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Young Designer</h4>
+                            <p class="card-text">3 Young Designer Highlights from the Lost Graduation Show in Milan</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btn-outline-light">Read more</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-12 signup text-white bg-primary text-center my-3 py-5  ">
+                <h3 class="  pb-3">Experience industry leading rendering technology.</h3>
+                <p>What are you waiting for?</p>
+                <div class="w-100 mt-5">
+                    <div class="btn btn-light px-5">
+                        Sign up
+                    </div>
+                    <div class="btn btn-outline-light">
+                        Learn about us
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-dark text-white py-3 text-center d-flex justify-content-around">
+        <div class="w-25">
+            <img width="100px" class="bg-dark" src="./Asset 1-20/Group 33.png" alt="" srcset="">
+        </div>
+
+
+        <div class="w-25">
+            <h6>Home</h6>
+        </div>
+        <div class="w-25">
+            <h6>Interrior Design</h6>
+        </div>
+
+
+        <div class="w-25">
+            <h6>Contact</h6>
+
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
